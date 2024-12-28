@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.card{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+}
+.container{
+    padding: 20px;
+}
+
+.input{
+    border-radius: 15px;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.container .input{
+    margin: 10px;
+}
+
+.input-container{
+    text-align: left;
+}
+label{
+    font-size: 1.1em;
+}
+table{
+    margin: auto;
+}
+
+p{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+button{
+    padding: 15px 50px;
+    border-radius: 10px;
+    background-color: rgb(255, 161, 161);
+    color: white;
+    border: none;
+    margin: 10px 0;
+    transition: background-color 0.25s;
+}
+
+button:hover{
+    background-color: rgb(255, 41, 41);
+}
