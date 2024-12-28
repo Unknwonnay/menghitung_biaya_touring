@@ -59,8 +59,14 @@ button:hover{
     background-color: rgb(255, 41, 41);
 }
 
-@media screen and (max-width: 523px) {
+/* @media screen and (max-width: 523px) {
     .input{
         width: 100px;
     }
-}
+} */
+/* Smartphones (portrait) ---------- */
+@media screen and (max-width: 500px){
+    .input{
+        max-width: 100px;
+    }
+   }
