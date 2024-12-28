@@ -58,3 +58,9 @@ button{
 button:hover{
     background-color: rgb(255, 41, 41);
 }
+
+@media screen and (max-width: 523px) {
+    .input{
+        width: 100px;
+    }
+}
